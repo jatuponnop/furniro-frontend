@@ -1,0 +1,43 @@
+@import "../../variables.scss";
+
+.cover {
+  background: url(/images/cover.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  .card {
+    width: 643px;
+    height: auto;
+    background-color: #fff3e3;
+    border-radius: 10px;
+    .card-wrapper {
+      padding: 40px;
+      .topic {
+        font-size: 16px;
+        font-weight: 600;
+        letter-spacing: 3px;
+      }
+      .title {
+        width: 400px;
+        font-size: 52px;
+        font-weight: bold;
+        color: $primaryColor;
+      }
+      .description {
+        font-size: 18px;
+        font-weight: 500;
+      }
+      .button {
+        border: 0;
+        background-color: $primaryColor;
+        color: white;
+        padding: 25px 72px;
+        font-size: 16px;
+        font-weight: bold;
+        margin-top: 46px;
+        &:hover {
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}

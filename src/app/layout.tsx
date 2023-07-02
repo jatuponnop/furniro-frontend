@@ -1,12 +1,18 @@
 import "./globals.scss";
-import { Poppins } from "next/font/google";
+import { config } from "@fortawesome/fontawesome-svg-core";
+import "@fortawesome/fontawesome-svg-core/styles.css";
 
-const font = Poppins({ subsets: ["latin"], weight: "300" });
+import { library } from "@fortawesome/fontawesome-svg-core";
+import { fab } from "@fortawesome/free-brands-svg-icons";
+import { faUser, faCoffee } from "@fortawesome/free-solid-svg-icons";
 
 export const metadata = {
   title: "Furniro",
   description: "E-commerce Furniture Website",
 };
+
+config.autoAddCss = false;
+library.add(fab, faUser);
 
 export default function RootLayout({
   children,
@@ -15,7 +21,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={font.className}>{children}</body>
+      <body>{children}</body>
     </html>
   );
 }
