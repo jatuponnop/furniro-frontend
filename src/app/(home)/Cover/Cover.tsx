@@ -5,7 +5,7 @@ type Props = {};
 
 function Cover({}: Props) {
   return (
-    <div className="cover">
+    <div className="banner">
       <div className="card">
         <div className="card-wrapper">
           <div className="topic">New Arrival</div>

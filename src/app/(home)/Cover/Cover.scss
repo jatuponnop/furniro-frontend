@@ -1,14 +1,19 @@
 @import "../../variables.scss";
 
-.cover {
+.banner {
   background: url(/images/cover.png);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
+  background-position: center;
+  padding-top: 158px;
+  padding-bottom: 158px;
   .card {
     width: 643px;
     height: auto;
     background-color: #fff3e3;
     border-radius: 10px;
+    margin-left: auto;
+    margin-right: 60px;
     .card-wrapper {
       padding: 40px;
       .topic {
