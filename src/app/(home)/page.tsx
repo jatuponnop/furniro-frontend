@@ -1,12 +1,12 @@
 import Navbar from "../_components/Navbar/Navbar";
-import Cover from "./Cover/Cover";
+import Banner from "./Banner/Banner";
 import "./page.scss";
 
 export default function Home() {
   return (
     <main>
       <Navbar />
-      <Cover />
+      <Banner />
     </main>
   );
 }

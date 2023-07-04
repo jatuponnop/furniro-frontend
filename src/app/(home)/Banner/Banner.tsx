@@ -1,9 +1,9 @@
 import React from "react";
-import "./Cover.scss";
+import "./Banner.scss";
 
 type Props = {};
 
-function Cover({}: Props) {
+function Banner({}: Props) {
   return (
     <div className="banner">
       <div className="card">
@@ -21,4 +21,4 @@ function Cover({}: Props) {
   );
 }
 
-export default Cover;
+export default Banner;
