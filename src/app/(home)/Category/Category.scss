@@ -1,0 +1,34 @@
+@import "../../variables.scss";
+
+.category {
+  margin-top: 62px;
+  margin-bottom: 31px;
+  .title {
+    font-weight: bold;
+    font-size: 32px;
+    color: #333333;
+  }
+  .description {
+    font-size: 20px;
+    font-weight: 400;
+    color: #666666;
+  }
+  .category-item-wrapper {
+    margin-top: 66px;
+    display: flex;
+    column-gap: 20px;
+    justify-content: space-between;
+    .category-item {
+      .category-img {
+        width: 100%;
+        border-radius: 10px;
+      }
+      .category-name {
+        font-weight: 600;
+        font-size: 24px;
+        color: #333333;
+        margin-top: 15px;
+      }
+    }
+  }
+}
