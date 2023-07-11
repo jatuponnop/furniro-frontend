@@ -3,6 +3,8 @@
 .category {
   margin-top: 62px;
   margin-bottom: 31px;
+  padding-right: 20px;
+  padding-left: 20px;
   .title {
     font-weight: bold;
     font-size: 32px;
@@ -14,10 +16,10 @@
     color: #666666;
   }
   .category-item-wrapper {
-    margin-top: 66px;
     display: flex;
-    column-gap: 20px;
     justify-content: space-between;
+    column-gap: 20px;
+    margin-top: 66px;
     .category-item {
       .category-img {
         width: 100%;

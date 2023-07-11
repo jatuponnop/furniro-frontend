@@ -5,7 +5,7 @@ type Props = {};
 
 function Category({}: Props) {
   return (
-    <div className="container text-center">
+    <div className="container">
       <div className="category">
         <div className="title">Browse The Range</div>
         <div className="description">
