@@ -1,14 +1,24 @@
 import React from "react";
 import "./Product.scss";
 import Products from "./Products/Products";
+import { ProductItemProps } from "./ProductItem/ProductItem";
 
 type Props = {};
 
 function Product({}: Props) {
+  const products: Array<ProductItemProps> = [
+    {
+      id: "1",
+      title: "Syltherine",
+      detail: "Stylish cafe chair",
+      price: 3500,
+      discount: 30,
+    },
+  ];
   return (
     <div className="product container">
       <div className="title">Our Products</div>
-      <Products products={[]} />
+      <Products products={products} />
       <button className="btn-show-more">Show More</button>
     </div>
   );
