@@ -1,5 +1,6 @@
 import React from "react";
 import ProductItem, { ProductItemProps } from "../ProductItem/ProductItem";
+import "./Products.scss";
 
 interface Props {
   products: Array<ProductItemProps>;

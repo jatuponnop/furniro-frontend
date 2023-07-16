@@ -8,5 +8,18 @@
     color: #3a3a3a;
     font-weight: bold;
     font-size: 40px;
+    margin-bottom: 20px;
+  }
+  .btn-show-more {
+    border: 2px solid #b88e2f;
+    padding: 18px 96px;
+    background-color: white;
+    font-size: 16px;
+    font-weight: 600;
+    color: #b88e2f;
+    margin-top: 20px;
+    &:hover {
+      cursor: pointer;
+    }
   }
 }

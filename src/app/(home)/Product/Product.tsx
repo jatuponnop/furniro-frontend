@@ -14,6 +14,55 @@ function Product({}: Props) {
       price: 3500,
       discount: 30,
     },
+    {
+      id: "2",
+      title: "Syltherine",
+      detail: "Stylish cafe chair",
+      price: 3500,
+    },
+    {
+      id: "3",
+      title: "Syltherine",
+      detail: "Stylish cafe chair",
+      price: 3500,
+      discount: 30,
+    },
+    {
+      id: "4",
+      title: "Syltherine",
+      detail: "Stylish cafe chair",
+      price: 3500,
+      tag: "new",
+    },
+    {
+      id: "5",
+      title: "Syltherine",
+      detail: "Stylish cafe chair",
+      price: 3500,
+    },
+    {
+      id: "6",
+      title: "Syltherine",
+      detail: "Stylish cafe chair",
+      price: 3500,
+      discount: 30,
+      tag: "new",
+    },
+    {
+      id: "7",
+      title: "Syltherine",
+      detail: "Stylish cafe chair",
+      price: 3500,
+      discount: 50,
+    },
+    {
+      id: "8",
+      title: "Syltherine",
+      detail: "Stylish cafe chair",
+      price: 3500,
+      discount: 30,
+      tag: "new",
+    },
   ];
   return (
     <div className="product container">

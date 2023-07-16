@@ -1,0 +1,82 @@
+.product-item {
+  position: relative;
+  background-color: #f4f5f7;
+  text-align: left;
+  .product-img {
+    width: 100%;
+  }
+  .product-wrapper {
+    padding: 22px;
+    padding-top: 8px;
+    .product-title {
+      color: #3a3a3a;
+      font-size: 24px;
+      font-weight: 600;
+      margin-bottom: 4px;
+    }
+    .detail {
+      color: #898989;
+      font-size: 16px;
+      font-weight: 500;
+      margin-bottom: 4px;
+    }
+    .price-wrapper {
+      display: flex;
+      align-items: center;
+      .price {
+        white-space: nowrap;
+        text-overflow: unset;
+        position: relative;
+        color: #3a3a3a;
+        font-size: 20px;
+        font-weight: 600;
+      }
+      .full-price {
+        color: #b0b0b0;
+        font-size: 16px;
+        font-weight: 400;
+        position: absolute;
+        right: 0;
+        margin-right: 15px;
+        text-decoration: line-through;
+      }
+    }
+    .tag-wrapper {
+      position: absolute;
+      right: 0;
+      top: 0;
+      margin-right: 10px;
+      margin-top: 10px;
+      .tag {
+        width: 48px;
+        height: 48px;
+        border-radius: 48px;
+        text-align: center;
+      }
+      .tag-text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-weight: 500;
+        font-size: 14px;
+      }
+    }
+    .discount-tag {
+      .tag {
+        background-color: #e97171;
+      }
+      .tag-text {
+        color: #ffffff;
+      }
+    }
+    .new-tag {
+      .tag {
+        background-color: #2ec1ac;
+      }
+      .tag-text {
+        color: #ffffff;
+      }
+    }
+  }
+}
