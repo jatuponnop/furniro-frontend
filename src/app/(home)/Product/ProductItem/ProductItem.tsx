@@ -60,6 +60,20 @@ function ProductItem({
           ""
         )}
       </div>
+      <div className="product-popup">
+        <button className="product-popup-btn">Add to cart</button>
+        <div className="product-slug">
+          <div className="product-slug-item">
+            <span className="product-slug-item-text">Share</span>
+          </div>
+          <div className="product-slug-item">
+            <span className="product-slug-item-text">Compare</span>
+          </div>
+          <div className="product-slug-item">
+            <span className="product-slug-item-text">Like</span>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
